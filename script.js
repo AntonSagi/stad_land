@@ -7,7 +7,6 @@ function getLand() { //Funktion för att hämta landen från JSON-fil
     })
     .then(function (data) {
         appendData(data);
-		console.log(data);
     })
     .catch(function (err) {
         console.log(err);
@@ -33,7 +32,6 @@ function getStad() { //Hämta städer från JSON-fil
     })
     .then(function (data) {
         appendStad(data);
-        console.log(data);
     })
     .catch(function (err) {
         console.log(err);
